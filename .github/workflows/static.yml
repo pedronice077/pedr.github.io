@@ -32,7 +32,7 @@ jobs:
         run: npm run build  # Assumes your static files are built in `build/`
 
       - name: Add Custom Domain
-        run: echo "pedronice.com" > build/CNAME  # Replace with your domain
+        run: echo "pedronice.com" > build/CNAME  # pedronice.com 
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
